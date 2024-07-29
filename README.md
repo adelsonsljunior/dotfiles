@@ -10,7 +10,7 @@ sudo apt install stow
 2. Clone this repository
 
 ~~~bash
-git clone https://github.com/adelsonsljunior/dotfiles.git
+git clone https://github.com/adelsonsljunior/dotfiles.git && cd dotfiles
 ~~~
 
 3. Apply the configuration
