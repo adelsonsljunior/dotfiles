@@ -4,7 +4,7 @@
 
 1. Install Stow
 ~~~bash
-sudo apt install stow
+sudo apt install stow -y
 ~~~
 
 2. Clone this repository
