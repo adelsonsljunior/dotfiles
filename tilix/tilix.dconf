@@ -1,0 +1,21 @@
+[/]
+prompt-on-close=true
+prompt-on-delete-profile=true
+window-style='normal'
+
+[keybindings]
+session-synchronize-input='<Alt>a'
+
+[profiles]
+default='25ffcb09-be00-47c0-871d-7258e89acec1'
+list=['2b7c4080-0ddd-46c5-8f23-563fd3ba789d', '25ffcb09-be00-47c0-871d-7258e89acec1']
+
+[profiles/25ffcb09-be00-47c0-871d-7258e89acec1]
+background-transparency-percent=5
+default-size-columns=85
+font='MesloLGS NF 14'
+use-system-font=false
+visible-name='eu'
+
+[profiles/2b7c4080-0ddd-46c5-8f23-563fd3ba789d]
+visible-name='Padrão'
