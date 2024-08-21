@@ -3,6 +3,7 @@
 ## Prepare Workstation
 
 Install Stow
+
 ~~~bash
 sudo apt install stow -y
 ~~~
@@ -16,7 +17,7 @@ git clone https://github.com/adelsonsljunior/dotfiles.git && cd dotfiles
 ## Apply the configuration
 
 ~~~bash
-stow tmux
+stow -t ~/ [folder-to-deploy]
 ~~~
 
 ## Tilix
@@ -24,5 +25,12 @@ stow tmux
 > For `tilix` don't use stow, use **dconf** instead.
 
 ~~~bash
-dconf load /com/gexperts/Tilix/ < tillix/tilix.dconf
+#save
+dconf dump /com/gexperts/Tilix/ > tilix/tilix.dconf
+~~~
+
+
+~~~bash
+#load
+dconf load /com/gexperts/Tilix/ < tilix/tilix.dconf
 ~~~
